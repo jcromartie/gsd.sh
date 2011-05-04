@@ -28,6 +28,6 @@ fi
 if [ -z "$GSD_RESET" ]
 then
     GSD_RESET="dscacheutil -flushcache"
-end
+fi
 
 $GSD_RESET
