@@ -26,5 +26,7 @@ To go back to "play mode" run:
 
 ## Customizing
 
-Just Set the environment variable `GSD_SITES` to **add** to the
-default list of sites.
+Just set the environment variable `GSD_SITES` to a list of additional
+sites you wish to block, like (in your `.profile` for example):
+
+    export GSD_SITES="store.apple.com github.com example.com"
