@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 # edit this list, or set GSD_SITES to add your custom sites
-SITES="$GSD_SITES reddit.com forums.somethingawful.com somethingawful.com digg.com break.com news.ycombinator.com infoq.com bebo.com twitter.com facebook.com blip.com youtube.com vimeo.com delicious.com flickr.com friendster.com hi5.com linkedin.com livejournal.com meetup.com myspace.com plurk.com stickam.com stumbleupon.com yelp.com slashdot.com"
+BASE_SITES="reddit.com forums.somethingawful.com somethingawful.com digg.com break.com news.ycombinator.com infoq.com bebo.com twitter.com facebook.com blip.com youtube.com vimeo.com delicious.com flickr.com friendster.com hi5.com linkedin.com livejournal.com meetup.com myspace.com plurk.com stickam.com stumbleupon.com yelp.com slashdot.com"
+
+SITES="$GSD_SITES $BASE_SITES"
 
 HOSTFILE="/etc/hosts"
 
