@@ -1,7 +1,8 @@
 # gsd.sh: Get S#!t Done
 
-`gsd.sh` is a simple shell script to modify your `/etc/hosts` file by
-creating an entry pointing to 127.0.0.1 for each site in a list.
+`gsd.sh` is a simple shell script to improved productivity by blocking
+sites through modifying `/etc/hosts`, creating an entry pointing to
+127.0.0.1 for each site in a list.
 
 ## Installation
 
