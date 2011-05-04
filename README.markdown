@@ -1,6 +1,6 @@
 # gsd.sh: Get S#!t Done
 
-`gsd.sh` is a simple shell script to improved productivity by blocking
+`gsd.sh` is a simple bash script to improved productivity by blocking
 sites through modifying `/etc/hosts`, creating an entry pointing to
 127.0.0.1 for each site in a list.
 
