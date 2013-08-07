@@ -11,8 +11,8 @@ wish to create an alias like this:
 
     alias gsd="sudo -E gsd.sh"
 
-If you're not on Mac OS X, also set `GSD_RESET` to the command used to
-reload `/etc/hosts`.
+Changes in `/etc/hosts` take effect immediately on Linux machines, so
+all GUI browser instances are killed upon execution of gsd.
 
 ## Usage
 
